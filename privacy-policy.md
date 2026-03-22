@@ -1,6 +1,6 @@
 # Privacy Policy for My Diary
 
-**Effective Date:** [Add Date]
+**Effective Date:** 22 March 2026
 
 ## 1. Introduction
 
