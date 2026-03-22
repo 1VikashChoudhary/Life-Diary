@@ -1,6 +1,6 @@
 # Terms of Service for My Diary
 
-**Effective Date:** [22 March 2026]
+**Effective Date:** 22 March 2026
 
 ## 1. Acceptance of Terms
 
