@@ -1,10 +1,10 @@
-# Privacy Policy for My Diary
+# Privacy Policy for Life Diary 
 
 **Effective Date:** 22 March 2026
 
 ## 1. Introduction
 
-My Diary ("we", "our", or "the app") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app and its services, including Google Sign-In.
+Life Diary  ("we", "our", or "the app") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app and its services, including Google Sign-In.
 
 ## 2. Information We Collect
 
