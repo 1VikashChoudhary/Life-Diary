@@ -23,7 +23,7 @@ We use the collected data exclusively to:
 
 We **do not** sell, rent, or trade your personal data to any third parties under any circumstances.
 
-## 4. Device Permissions (Microphone & Camera)
+## 4. Device Permissions (Microphone , Camera and Photos/Media)
 To provide core journaling features, Life Diary requests access to specific device permissions:
 - **Audio/Microphone (`RECORD_AUDIO`):** We request this permission to allow you to record voice notes directly into your diary entries. We do not listen to, collect, or transmit your audio recordings to our servers.
 - **Photos/Media:** We request access to your photo library to allow you to attach images and videos to your diary entries.
