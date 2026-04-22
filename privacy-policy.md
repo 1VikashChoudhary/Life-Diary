@@ -1,70 +1,92 @@
 # Privacy Policy for Life Diary
 
-**Effective Date:** 22 March 2026
+**Effective Date:** 22 April 2026  
+**Version:** 2
 
-## 1. Introduction
-Life Diary (“we”, “our”, or “the app”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect your information when you use the Life Diary app and its associated services, including Google Sign-In and Google Drive Cloud Sync.
+Life Diary respects your privacy. This Privacy Policy explains what information the app uses and how your diary data is stored, backed up, and synced.
 
-**By using Life Diary, you agree to the collection and use of information in accordance with this policy.**
+## 1. Local-first storage
 
-## 2. Personal Information We Collect
-When you choose to use the Google Sign-In and Cloud Sync features, we may collect the following information:
-- Basic profile information (such as your name and email address)
-- Google account identifier (user ID)
+Life Diary stores your diary entries, media, voice notes, settings, and app data locally on your device by default.
 
-We do **not** access, collect, or store your Google password.
+Your diary content is not uploaded anywhere unless you choose to use backup, restore, export, or Google Drive sync features.
 
-## 3. How We Use Your Information
-We use the collected data exclusively to:
-- Authenticate you securely via Google Sign-In
-- Link your diary entries to your personal account
-- Provide seamless access to your diary across your personal devices
-- Restore your data if you reinstall the app
+## 2. Google Drive sync
 
-We **do not** sell, rent, or trade your personal data to any third parties under any circumstances.
+Google Drive sync is optional.
 
-## 4. Device Permissions (Microphone , Camera and Photos/Media)
-To provide core journaling features, Life Diary requests access to specific device permissions:
-- **Audio/Microphone (`RECORD_AUDIO`):** We request this permission to allow you to record voice notes directly into your diary entries. We do not listen to, collect, or transmit your audio recordings to our servers.
-- **Photos/Media:** We request access to your photo library to allow you to attach images and videos to your diary entries.
+If you enable Google Drive sync, Life Diary uses the Google account you choose only to provide backup, restore, and sync features that you start or enable.
 
-**All voice recordings, media files, and text entries are stored locally on your device or backed up securely to your own personal Google Drive if you enable cloud sync. We have zero access to your diary content.**
+Life Diary stores synced backup files in your own Google Drive account. These files are used only for Life Diary backup, restore, and sync.
 
-## 5. Google Drive Integration and Cloud Sync
-Life Diary allows you to sync and backup your data using your personal Google Drive account. 
-- When you enable this feature, the app creates, reads, and modifies files **only within its own dedicated, hidden app-data folder** in your Google Drive. 
-- We **do not** access, view, or modify any other personal files, documents, or photos in your Google Drive. 
-- Your diary data and media files are transferred securely and directly between your device and your Google Drive account.
-- We do not store your diary content on our own servers or any third-party servers.
+We do not access, view, modify, or manage your other Google Drive files.
 
-## 6. Data Storage and Security
-- **Local Encryption:** Your diary database is encrypted locally on your device using AES-256 encryption (SQLCipher).
-- **Cloud Security:** Backups transferred to Google Drive are encrypted and secured by Google's infrastructure.
-- We take all reasonable measures to prevent unauthorized access, disclosure, or misuse of your authentication data.
+## 3. Information stored by the app
 
-## 7. Data Sharing
-We **do not** share your personal data or diary content with third parties, except:
-- When required by law
-- To comply with legitimate legal obligations
+When you sign in for Google Drive sync, Life Diary stores the selected Google account email locally on your device so sync can continue.
 
-## 8. Third-Party Services
-This app uses Google OAuth and Google Drive API services. By signing in and enabling sync, you agree to Google’s Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+Life Diary does not store your diary content, account metadata, or device metadata in Firebase for the Android sync feature.
 
-## 9. Data Retention and Deletion
-- We retain your basic authentication data only as long as necessary to provide you with sync services.
-- **You are in full control of your data.** You can delete your diary entries, voice notes, and media at any time from within the app.
-- You can revoke Life Diary's access to your Google Account at any time via your Google Account Security settings.
+Life Diary does not sell your diary data.
 
-## 10. Your Rights
-You have the right to:
-- Access your data natively within the app
-- Export your data via the app's built-in PDF and backup export tools
-- Request correction or deletion of your authentication data
-- Revoke Google Drive access at any time
+## 4. Permissions used
 
-## 11. Changes to This Policy
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Updates will be posted on this page.
+Life Diary may request device permissions to provide app features:
 
-## 12. Contact Information
-If you have any questions or concerns about this Privacy Policy or our practices, please contact:
-**Email:** vikashchoudhary.ara@gmail.com
+- **Photos and media:** Used to attach images, videos, or files to diary entries.
+- **Microphone:** Used only when you record voice notes.
+- **Notifications:** Used only for optional diary reminders.
+- **Location:** Used only if you choose to add location information to an entry.
+- **Internet:** Used for optional Google sign-in, Google Drive backup, restore, and sync.
+
+You can deny optional permissions, but some related features may not work.
+
+## 5. Backups, exports, and synced files
+
+Local backups and exported files are created only when you choose to create them.
+
+Google Drive backups and synced files are stored in the Google Drive account you choose and remain subject to Google’s services, terms, and privacy policies.
+
+You are responsible for storing local backups and exported files securely.
+
+## 6. Security
+
+Life Diary uses local database encryption to protect diary data stored inside the app.
+
+Protected backup files may also be encrypted by the app. You should keep backup passwords safe because Life Diary cannot recover a forgotten backup password.
+
+No storage or sync system can be guaranteed to be perfect. Device failure, app defects, user actions, sync conflicts, network issues, or third-party service outages may cause data loss, delay, duplication, or corruption.
+
+## 7. Third-party services
+
+Life Diary may use Google services for optional sign-in, Drive authorization, backup, restore, and sync.
+
+By using Google Drive sync, you also agree to Google’s applicable terms and privacy policy:
+
+https://policies.google.com/privacy
+
+## 8. Data control and deletion
+
+You can stop cloud features at any time by signing out in the app.
+
+You can delete local app data by clearing app data or uninstalling the app from your device.
+
+You can delete Life Diary backup/sync files from your Google Drive account.
+
+You can revoke Life Diary’s Google account access from your Google Account security settings.
+
+## 9. Children’s privacy
+
+Life Diary is not intended to knowingly collect personal information from children. If you believe a child has provided personal information through the app, contact us so we can help address it.
+
+## 10. Changes to this policy
+
+We may update this Privacy Policy when app features, storage behavior, permissions, or third-party services change.
+
+The latest version will be posted on this page with an updated effective date.
+
+## 11. Contact
+
+If you have questions about this Privacy Policy, contact:
+
+**Email:** vikaschoudhary.ara@gmail.com
