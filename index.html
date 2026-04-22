@@ -1,110 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Life Diary</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
-}
-header {
-    background: #020617;
-    padding: 30px;
-    text-align: center;
-}
-h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-}
-.card {
-    background: #020617;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-}
-a {
-    color: #38bdf8;
-}
-button {
-    background: #38bdf8;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Diary Terms & Privacy</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --text: #1f2430;
+      --muted: #5c6475;
+      --line: #ddd6c8;
+      --accent: #355c7d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, #efe8da 0, transparent 32%),
+        linear-gradient(180deg, #f7f3ec 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 18px 56px;
+    }
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(29, 33, 41, 0.06);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin: 0 0 10px;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 28px;
+    }
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .card {
+      background: rgba(255, 253, 248, 0.84);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      margin-top: 18px;
+      box-shadow: 0 12px 30px rgba(29, 33, 41, 0.04);
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: #f2f6fa;
+      border-radius: 14px;
+      color: var(--text);
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+  </style>
 </head>
-
 <body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Effective 2026-04-22 · Version 2</p>
+      <h1>LifeDiary Terms & Privacy</h1>
+      <p>
+        LifeDiary stores journal content on your device by default. Backup and cloud sync are optional convenience
+        features, not guaranteed storage or recovery services.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Local first</h3>
+          <p>Entries, media, and settings stay on your device unless you choose to back up or sync them.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud is optional</h3>
+          <p>Google Drive sync only starts when you choose to sign in and enable cloud features.</p>
+        </div>
+        <div class="card">
+          <h3>Your responsibility</h3>
+          <p>You should keep your own backups for anything important and verify restores before relying on them.</p>
+        </div>
+      </div>
+    </section>
 
-<header>
-    <h1>Life Diary </h1>
-    <p>Secure personal diary app with Google Sign-In</p>
-</header>
+    <section class="section">
+      <h2>Terms of Use</h2>
+      <ul>
+        <li>LifeDiary is provided on an as-is and as-available basis.</li>
+        <li>You are responsible for the content you write, the files you export, and the backups you keep.</li>
+        <li>Backup, restore, and sync depend on your device, your storage, your network, and third-party services such as Google Drive.</li>
+        <li>Those services and features may fail, be delayed, conflict, duplicate content, or become unavailable without notice.</li>
+        <li>To the extent permitted by applicable law, LifeDiary does not guarantee that any entry, attachment, backup, or synced copy can always be preserved, restored, or recovered.</li>
+      </ul>
+      <div class="note">
+        Data may be lost, corrupted, duplicated, delayed, or become unavailable because of device failure, app defects,
+        user actions, sync conflicts, account issues, or third-party outages.
+      </div>
+    </section>
 
-<main>
+    <section class="section">
+      <h2>Privacy Policy</h2>
+      <ul>
+        <li>Your diary content is stored locally on your device by default.</li>
+        <li>If you enable Google Drive sync, LifeDiary uses the Google account you choose only for backup, restore, and sync features you start.</li>
+        <li>When you sign in for Google Drive sync, LifeDiary stores the selected Google account email locally on your device so sync can continue.</li>
+        <li>LifeDiary does not store your diary content, account metadata, or device metadata in Firebase for the Android sync feature.</li>
+        <li>Google Drive backups and synced files are stored in the Google Drive account you choose and remain subject to Google's services and policies.</li>
+        <li>LifeDiary does not sell your diary data.</li>
+      </ul>
+    </section>
 
-<div class="card">
-<h2>About Life Diary </h2>
-<p>
-Life Diary  is a personal journaling application that allows users to securely store
-notes, photos, videos, and memories. Users can sign in using their Google account
-to safely access and manage their private diary entries.
-</p>
-</div>
-
-<div class="card">
-<h2>Why Google Sign-In is used</h2>
-<p>
-We use Google Sign-In only for authentication purposes to securely identify users.
-We do not access or store your passwords. Only basic profile information such as
-your name and email is used.
-</p>
-</div>
-
-<div class="card">
-<h2>Features</h2>
-<ul>
-<li>Secure personal diary</li>
-<li>Media support (images, videos, files)</li>
-<li>Private and encrypted data</li>
-<li>Easy login with Google</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Access the App</h2>
-<p>
-<a href="https://my-diary-5ec49.web.app">Open App</a>
-</p>
-</div>
-
-<div class="card">
-<h2>Legal</h2>
-<p>
-<a href="https://1vikashchoudhary.github.io/My-Diary/privacy-policy">Privacy Policy</a>
-</p>
-<p>
-<a href="https://1vikashchoudhary.github.io/My-Diary/terms">Terms of Service</a>
-</p>
-</div>
-
-<div class="card">
-<h2>Contact</h2>
-<p>Email: vikashchoudhary.ara@gmail.com</p>
-</div>
-
-</main>
-
+    <section class="section">
+      <h2>Your Control</h2>
+      <ul>
+        <li>You can stop cloud features at any time by signing out.</li>
+        <li>Removing app data or uninstalling the app removes local content from that device.</li>
+        <li>Exported files and local backups remain under your control and should be stored securely by you.</li>
+      </ul>
+      <p class="footer">
+        Contact: vikaschoudhary.ara@gmail.com
+      </p>
+    </section>
+  </main>
 </body>
 </html>
